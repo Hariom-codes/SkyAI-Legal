@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 import "./index.css";
 
-const API_BASE = (import.meta.env.VITE_API_URL || "http://127.0.0.1:8001").replace(/\/$/, "");
+const API_BASE = (import.meta.env.VITE_API_URL || "http://127.0.0.1:8000").replace(/\/$/, "");
 const TEAM_NAME = "SkyAI-Legal";
 const BRAND = TEAM_NAME;
 const TOKEN_KEY = "skyai_legal_token";
